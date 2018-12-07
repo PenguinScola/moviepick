@@ -1,0 +1,22 @@
+{
+  "name": "moviepick",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PenguinScola/moviepick.git",
+  "author": "Benjamas Tanaboriboon (view) <benjamas.tana@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "scripts": {
+    "dev": "set NODE_ENV=development && set PORT=4000 && node server",
+    "build": "next build",
+    "start": "set NODE_ENV=production && set PORT=4000 && node server"
+  }
+}
